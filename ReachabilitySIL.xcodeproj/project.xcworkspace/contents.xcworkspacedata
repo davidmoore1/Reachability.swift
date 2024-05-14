@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Reachability.xcodeproj">
+      location = "self:/Users/davidyahoo/Source/Github/Reachability.swift/ReachabilitySIL.xcodeproj">
    </FileRef>
 </Workspace>

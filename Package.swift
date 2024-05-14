@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "Reachability",
+    name: "ReachabilitySIL",
     products: [
         .library(
-            name: "Reachability",
-            targets: ["Reachability"]),
+            name: "ReachabilitySIL",
+            targets: ["ReachabilitySIL"]),
     ],
     targets: [
         .target(
-            name: "Reachability",
+            name: "ReachabilitySIL",
             dependencies: [],
             path: "Sources",
             resources: [.copy("PrivacyInfo.xcprivacy")]
         ),
         .testTarget(
-            name: "ReachabilityTests",
-            dependencies: ["Reachability"],
+            name: "ReachabilitySILTests",
+            dependencies: ["ReachabilitySIL"],
             path: "Tests"),
     ]
 )
